@@ -5,9 +5,9 @@ import { Injectable } from '@angular/core';
 })
 export class PersonalDetailsService {
   public prsnlObj={
-    name:"Shashwath_Resume A Uchil",
+    name:"Shashwath A Uchil",
     place:"Karnataka, India",
-    email:"Shashwath_Resumeamruthuchil@gmail.com",
+    email:"shashwathamruthuchil@gmail.com",
     mobile:"8867515162",
     job: "Front-End Developer",
     skills:[
