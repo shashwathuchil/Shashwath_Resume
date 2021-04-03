@@ -122,8 +122,13 @@
               "devServerTarget": "Shashwath_Resume:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "Shashwath_Resume"
 }
