@@ -1,0 +1,19 @@
+<div class="w3-container w3-card w3-white">
+  <h2 class="w3-text-grey w3-padding-16">
+    <i
+      class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"
+    ></i
+    >Education
+  </h2>
+
+  <div *ngFor="let ed of eduDel.eduDelObj; let i = index;">
+    <div class="w3-container">
+      <h5 class="w3-opacity"><b>{{ed.lable}}</b></h5>
+      <h6 class="w3-text-teal">
+        <i class="fa fa-calendar fa-fw w3-margin-right"></i>{{ed.duration}}
+      </h6>
+      <p>{{ed.board}}</p>
+      <hr  *ngIf="eduDel.eduDelObj.length-1 !== i" />
+    </div>
+  </div>
+</div>
