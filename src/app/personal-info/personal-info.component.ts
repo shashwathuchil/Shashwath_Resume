@@ -15,8 +15,6 @@ export class PersonalInfoComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log(this.perDetails);
-
   }
 
 }

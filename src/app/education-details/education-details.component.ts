@@ -9,8 +9,6 @@ import { EducationDetailsService } from "../services/education-details.service"
 export class EducationDetailsComponent implements OnInit {
 
   constructor(public eduDel: EducationDetailsService) {
-    console.log(this.eduDel);
-
    }
 
   ngOnInit() {
