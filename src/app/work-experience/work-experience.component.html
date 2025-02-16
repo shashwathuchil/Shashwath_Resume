@@ -4,7 +4,7 @@
     >Work Experience
   </h2>
 
-  <div *ngFor="let job of JobDel.eduObj; let i = index;">
+  <div *ngFor="let job of JobDel.eduObj; let i = index;" class="scale-up-bottom">
     <div class="w3-container">
       <h5 class="w3-opacity"><b>{{job.jobTitle}}</b></h5>
       <h6 *ngIf="job.current" class="w3-text-teal">
