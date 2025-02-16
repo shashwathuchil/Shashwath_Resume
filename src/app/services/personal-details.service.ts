@@ -36,7 +36,31 @@ export class PersonalDetailsService {
         percentile:"100%",
       },
       {
-        label:"Ionic 1,2,3",
+        label:"Angular 16",
+        percentile:"100%",
+      },
+      {
+        label:"Angular 19",
+        percentile:"100%",
+      },
+      {
+        label:"Ionic 1",
+        percentile:"100%",
+      },
+      {
+        label:"Ionic 2",
+        percentile:"100%",
+      },
+      {
+        label:"Ionic 3",
+        percentile:"100%",
+      },
+      {
+        label:"Ionic 6",
+        percentile:"100%",
+      },
+      {
+        label:"Ionic 7",
         percentile:"100%",
       },
       {
@@ -45,7 +69,7 @@ export class PersonalDetailsService {
       },
       {
         label:"React native",
-        percentile:"10%",
+        percentile:"90%",
       },
     ],
     languages:[
