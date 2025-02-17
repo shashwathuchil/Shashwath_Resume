@@ -1,7 +1,7 @@
 <div class="w3-third">
   <div class="w3-white w3-text-grey w3-card-4">
     <div class="w3-display-container">
-      <img src="../../assets/avatar.jpg" style="width: 100%" alt="Avatar" />
+      <img src="assets/avatar.jpg" style="width: 100%" alt="Avatar" />
       <div class="w3-display-bottomleft w3-container w3-text-black profile-name">
         <h2>{{ perDetails.prsnlObj.name }}</h2>
       </div>
@@ -22,6 +22,12 @@
           class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"
         ></i
         ><a [href]="mailString">{{ perDetails.prsnlObj.email }}</a>
+      </p>
+      <p class="scale-in-hor-left-email w3-row">
+        <i
+          class="fa fa-solid fa-download fa-fw w3-margin-right w3-large w3-text-teal"
+        ></i>
+        <a [href]="perDetails.prsnlObj.resume">Resume Download</a>
       </p>
       <!-- <p>
         <i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i
