@@ -8,6 +8,7 @@ export class PersonalDetailsService {
     name:"Shashwath A Uchil",
     place:"Karnataka, India",
     email:"shashwathamruthuchil@gmail.com",
+    resume:"assets/SHASHWATH_UI_DEV_8.6_YR.pdf",
     mobile:"8867515162",
     job: "Front-End Developer",
     skills:[

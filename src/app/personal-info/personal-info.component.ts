@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PersonalDetailsService } from "../services/personal-details.service"
+import { PersonalDetailsService } from "../services/personal-details.service";
 
 @Component({
   selector: 'app-personal-info',
